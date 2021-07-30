@@ -778,6 +778,7 @@ CODE
 #define _CRT_SECURE_NO_WARNINGS
 #endif
 
+#include "pch.h"
 #include "imgui.h"
 #ifndef IMGUI_DISABLE
 
@@ -17226,6 +17227,7 @@ void ImGui::DebugNodeViewport(ImGuiViewportP*) {}
 
 #endif
 
+
 //-----------------------------------------------------------------------------
 
 // Include imgui_user.inl at the end of imgui.cpp to access private data/functions that aren't exposed.
@@ -17233,7 +17235,6 @@ void ImGui::DebugNodeViewport(ImGuiViewportP*) {}
 #ifdef IMGUI_INCLUDE_IMGUI_USER_INL
 #include "imgui_user.inl"
 #endif
-
 //-----------------------------------------------------------------------------
 
 #endif // #ifndef IMGUI_DISABLE
